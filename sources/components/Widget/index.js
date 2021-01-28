@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 import React from 'react';
-=======
->>>>>>> f34ad02aa897a0fa3beb0007bf2dd1efd9723fbc
 import styled from 'styled-components';
 
 const Widget = styled.div`

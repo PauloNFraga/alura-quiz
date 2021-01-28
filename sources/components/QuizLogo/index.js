@@ -1,11 +1,5 @@
-<<<<<<< HEAD
 import React from 'react';
 import styled from 'styled-components';
-=======
-import styled from 'styled-components';
-
-import React from 'react';
->>>>>>> f34ad02aa897a0fa3beb0007bf2dd1efd9723fbc
 import PropTypes from 'prop-types';
 
 function Logo({ className }) {
