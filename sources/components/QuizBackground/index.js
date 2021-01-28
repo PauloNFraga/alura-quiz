@@ -36,8 +36,16 @@ const QuizBackground = styled.div`
   }
   a {
     margin: 5px;
-    color: ${({ theme }) => theme.colors.contrastText};
-  }
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+    &:hover,
+    &:focus {
+      opacity: .5;
+    }
+  span {
+      text-decoration: underline;
+    }
 `;
 
 export default QuizBackground;

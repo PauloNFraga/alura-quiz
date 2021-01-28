@@ -19,7 +19,7 @@ const FooterWrapper = styled.footer`
     &:focus {
       opacity: .5;
     }
-    span {
+  span {
       text-decoration: underline;
     }
   }
@@ -34,9 +34,11 @@ export default function Footer(props) {
       </a>
       <p>
         Orgulhosamente criado durante a
+        {' '}
         <a href="https://www.alura.com.br/">
           <span>Imersão React Next.js</span>
         </a>
+        {' '}
         da alura
       </p>
     </FooterWrapper>

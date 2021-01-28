@@ -46,6 +46,11 @@ Widget.Content = styled.div`
     list-style: none;
     padding: 12px;
   }
+  button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
 `;
 
 export default Widget;

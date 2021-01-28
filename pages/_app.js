@@ -24,29 +24,14 @@ const GlobalStyle = createGlobalStyle`
     flex-direction: column;
   }
 `
-
-// const GlobalStyle = createGlobalStyle`
-//   body {
-//     margin: 0;
-//     padding: 0;
-//     box-sizing: border-box;
-//   }
-// `
-
 const theme = db.theme;
-
-// const theme = {
-//   colors: {
-//     primary: '#0070f3',
-//   },
-// }
 
 export default function App({ Component, pageProps }) {
   return (
     <>
       <head>
         <link rel="preconnect" href="https://fonts.gstatic.com" /> 
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet" />  
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet" />  
       </head>
       <ThemeProvider theme={theme}>
         <GlobalStyle />

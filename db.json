@@ -1,7 +1,7 @@
 {
     "bg": "https://images.pexels.com/photos/142497/pexels-photo-142497.jpeg",
     "title": "alura Quiz",
-    "description": "Teste seus conhecimentos e vamos ver quantos layouts você vai deixar em pé.",
+    "description": "Test your knowledge and let see how many layouts you will leave standing.",
     "theme": {
       "colors": {
         "primary": "#0d47a1",
