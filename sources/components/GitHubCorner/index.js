@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
   position: absolute;
   top: 5px;
+=======
+import styled from 'styled-components';
+import React from 'react';
+
+const Wrapper = styled.div`
+  position: absolute;
+  top: 0;
+>>>>>>> f34ad02aa897a0fa3beb0007bf2dd1efd9723fbc
   border: 0;
   right: 0;
   z-index: 20;
@@ -35,7 +44,11 @@ const SVGWrapper = styled.svg`
 export default function GitHubCorner({ projectUrl }) {
   return (
     <Wrapper>
+<<<<<<< HEAD
       <a href="https://github.com/PauloNFraga/alura-quiz.git" target="_blank" rel="noreferrer">
+=======
+      <a href="https://github.com/alura-challenges/aluraquiz-base/tree/v1" target="_blank" rel="noreferrer">
+>>>>>>> f34ad02aa897a0fa3beb0007bf2dd1efd9723fbc
         <SVGWrapper className="githubCorner" width="80" height="80" viewBox="0 0 250 250" aria-hidden="true">
           <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z" />
           <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style={{ transformOrigin: '130px 106px' }} className="octo-arm" />

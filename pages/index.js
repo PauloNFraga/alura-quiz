@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 import React from 'react';
 import styled from 'styled-components'
 import db from '../db.json';
 import Head from 'next/head'
+=======
+import styled from 'styled-components'
+import db from '../db.json';
+
+>>>>>>> f34ad02aa897a0fa3beb0007bf2dd1efd9723fbc
 import Footer from '../sources/components/Footer';
 import GitHubCorner from '../sources/components/GitHubCorner';
 import QuizBackground from '../sources/components/QuizBackground';
@@ -33,9 +39,12 @@ export const QuizContainer = styled.div`
 export default function Home() {
   return (
    <QuizBackground backgroundImage={ db.bg }>
+<<<<<<< HEAD
      <Head>
        <title>alura-quiz</title>
      </Head>
+=======
+>>>>>>> f34ad02aa897a0fa3beb0007bf2dd1efd9723fbc
      <p>Background Image:</p>
      <a href="https://www.pexels.com/photo/green-tree-near-green-plants-142497/">
        <span>Green Tree near Green Plants (Pexels 142497) Mali Maeder</span>
