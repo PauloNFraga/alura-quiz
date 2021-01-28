@@ -7,10 +7,6 @@
     "start": "next start"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "eslint": "^7.18.0",
-=======
->>>>>>> f34ad02aa897a0fa3beb0007bf2dd1efd9723fbc
     "next": "latest",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
@@ -21,8 +17,4 @@
     "babel-plugin-styled-components": "^1.8.0"
   },
   "license": "MIT"
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> f34ad02aa897a0fa3beb0007bf2dd1efd9723fbc
